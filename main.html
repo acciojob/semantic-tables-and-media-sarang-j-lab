@@ -1,3 +1,4 @@
+// HTML Table Creation
 <!DOCTYPE html>
 
 <html>
@@ -8,53 +9,84 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<tabel border="1">
-		 <thead>
-	      <tr>
-	        <th>Roll Number</th>
-	        <th>Name</th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <tr>
-	        <td>101</td>
-	        <td>Alice</td>
-	      </tr>
-	      <tr>
-	        <td>102</td>
-	        <td>Bob</td>
-	      </tr>
-	      <tr>
-	        <td>103</td>
-	        <td>Charlie</td>
-	      </tr>
-		</tbody>
-	</tabel>
-	
-	<h1>List of medias</h1>
+	<h1 style="text-align: center;">HTML Assignment #3</h1>
 
-	<ol>
-		<li><img src="https://picsum.photos/id/123/200/300" alt="image"/></li>
-		<li>
-			<video controls>
-			  <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-			</video></li>
-		<li>
-			 <audio 
-		      src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" 
-		      controls>
-		      <source 
-		        src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" 
-		        type="audio/ogg">
-      Your browser does not support the audio element.
-    </audio>
+  <!-- Table 1 -->
+  <table id="table-1" class="middle">
+    <tr>
+      <td id="t11" class="left">left</td>
+      <td id="t12" class="center">center</td>
+      <td id="t13" class="right">right</td>
+    </tr>
+    <tr>
+      <td class="left">left</td>
+      <td class="center">center</td>
+      <td class="right">right</td>
+    </tr>
+    <tr>
+      <td class="left">left</td>
+      <td class="center">center</td>
+      <td class="right">right</td>
+    </tr>
+  </table>
 
-		</li>
-	</ol>
-	
+  <br>
+
+  <!-- Table 2 -->
+  <table id="table-2" class="middle">
+    <tr>
+      <td id="t21" colspan="6"></td>
+    </tr>
+    <tr>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <table class="middle">
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+        </table>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+    </tr>
+    <tr>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+    </tr>
+    <tr>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- Table 3 -->
+  <table id="table-3" class="middle">
+    <tr class="green">
+      <td colspan="3"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td id="t-image">
+        <img src="https://i.imgur.com/hXSqMdX.jpeg" width="300" height="200" alt="Basketball Dunk">
+      </td>
+      <td></td>
+    </tr>
+    <tr class="blue">
+      <td colspan="3"></td>
+    </tr>
+  </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
 
 </html>
+
+
